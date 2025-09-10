@@ -1,8 +1,8 @@
 # CRLF Hunter
 
-High-coverage **CRLF injection** scanner with optional **Web UI** and
-**HTTP/2→HTTP/1 smuggling** probe.  Built for speed against thousands of
-URLs, with pretty CSV/JSON reports and a clean UI that runs locally.
+A fast and flexible **CRLF injection scanner** that can handle thousands of URLs with ease.
+Includes **Web UI, supports HTTP/2 → HTTP/1 smuggling checks,
+and generates clean CSV/JSON reports** you can actually use.
 
 > **Author**: DeathReaper  
 > **License**: MIT  
