@@ -1,0 +1,7 @@
+requests>=2.31.0
+httpx>=0.27.0
+h2>=4.1.0
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+# python-multipart is required by FastAPI for form parsing and file uploads in the web UI
+python-multipart>=0.0.6
