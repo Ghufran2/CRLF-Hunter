@@ -63,6 +63,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -U pip setuptools wheel
 pip install .
+pip install python-multipart (Needed for the UI)
 
 # or for editable development:
 pip install -e .
