@@ -54,9 +54,16 @@ Key capabilities include:
 ## Install
 
 ```
-# From the repository root
+git clone https://github.com/Ghufran2/CRLF-Hunter.git
+cd CRLF-Hunter/
+sudo apt install -y python3-venv
+(if you're on 3.13 and this fails, try: sudo apt install -y python3.13-venv)
+
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -U pip setuptools wheel
 pip install .
+
 # or for editable development:
 pip install -e .
 ```
