@@ -58,7 +58,7 @@ Key capabilities include:
 pip install -U pip setuptools wheel
 pip install .
 # or for editable development:
-# pip install -e .
+pip install -e .
 ```
 
 After installation you can run the tool anywhere using the `crlfhunter`
